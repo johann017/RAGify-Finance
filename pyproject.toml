@@ -1,0 +1,20 @@
+[project]
+name = "ragify-finance"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "beautifulsoup4>=4.12.0,<5.0.0",
+    "lxml>=4.9.0,<5.0.0",
+    "sec-edgar-downloader>=5.0.0,<6.0.0",
+    "langchain-text-splitters>=0.3.2,<0.4.0",
+    "langchain-core>=0.3.0",
+    "langchain-chroma>=0.1.0",
+    "chromadb>=0.5.0",
+    "langchain-huggingface>=0.1.0",
+    "sentence-transformers>=3.3.0,<4.0.0",
+    "transformers>=4.46.0,<5.0.0",
+    "torch>=2.0.0",
+    "accelerate>=0.26.0",
+    "regex>=2023.10.22",
+    "unicodedata2>=13.0.0",
+]
