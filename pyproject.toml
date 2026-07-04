@@ -17,4 +17,5 @@ dependencies = [
     "accelerate>=0.26.0",
     "regex>=2023.10.22",
     "unicodedata2>=13.0.0",
+    "langchain>=1.3.11",
 ]
